@@ -1,0 +1,52 @@
+{
+    "lsp": {
+        "rust-analyzer": {
+            "initialization_options": {
+                "inlayHints": {
+                    "lifetimeElisionHints": {
+                        "enable": "skip_trivial",
+                        "useParameterNames": true
+                    },
+                    "typeHints": {
+                        "enable": true
+                    },
+                    "parameterHints": {
+                        "enable": true
+                    },
+                    "chainingHints": {
+                        "enable": true
+                    }
+                },
+                "rust": {
+                    "analyzerTargetDir": true
+                },
+                "checkOnSave": {
+                    "command": "check"
+                },
+                "cargo": {
+                    "features": "all",
+                    "buildScripts": {
+                        "enable": true
+                    }
+                },
+                "procMacro": {
+                    "enable": true
+                },
+                "diagnostics": {
+                    "experimental": {
+                        "enable": true
+                    }
+                }
+            }
+        }
+    },
+    "format_on_save": "on",
+    "tab_size": 4,
+    "use_autoclose": true,
+    "show_whitespaces": "boundary",
+    "buffer_font_size": 14,
+    "preferred_line_length": 100,
+    "wrap_guides": [
+        100
+    ]
+}

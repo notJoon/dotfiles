@@ -1,0 +1,79 @@
+[
+    {
+        "label": "Build",
+        "command": "./x",
+        "args": [
+            "build"
+        ],
+        "env": {},
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always"
+    },
+    {
+        "label": "Check",
+        "command": "./x",
+        "args": [
+            "check"
+        ],
+        "env": {},
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always"
+    },
+    {
+        "label": "Test",
+        "command": "./x",
+        "args": [
+            "test"
+        ],
+        "env": {},
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always"
+    },
+    {
+        "label": "Clippy",
+        "command": "./x",
+        "args": [
+            "clippy"
+        ],
+        "env": {},
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always"
+    },
+    {
+        "label": "Format",
+        "command": "./x",
+        "args": [
+            "fmt"
+        ],
+        "env": {},
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always"
+    },
+    {
+        "label": "Doc",
+        "command": "./x",
+        "args": [
+            "doc"
+        ],
+        "env": {},
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always"
+    },
+    {
+        "label": "Clean",
+        "command": "./x",
+        "args": [
+            "clean"
+        ],
+        "env": {},
+        "use_new_terminal": false,
+        "allow_concurrent_runs": false,
+        "reveal": "always"
+    }
+]
